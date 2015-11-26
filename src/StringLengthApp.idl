@@ -1,0 +1,8 @@
+module StringLengthApp
+{
+  interface StringLength
+  {
+	string getStringLength(in wstring str);
+    	oneway void shutdown();
+  };
+};
